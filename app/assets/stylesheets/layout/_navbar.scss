@@ -29,14 +29,15 @@
 
 /* Navbar logo */
 .logo {
-  width: 200px;
+  width: 150px;
+  border: 1px solid white;
 }
 
 
 
 @media screen and (max-width: 570px) {
   .logo{
-  width: 150px;
+  width: 100px;
   }
 }
 
