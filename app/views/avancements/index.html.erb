@@ -1,1 +1,12 @@
-<h1>Hello</h1>
+<div class="wraper">
+  <div class="container">
+    <div class="avancements">
+      <% @avancements.each do |avancement| %>
+      <div class="card">
+        <%= avancement.date %>
+        <%= avancement.title %>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>
