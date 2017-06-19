@@ -130,3 +130,45 @@ body {
   letter-spacing: 2px;
   font-family: 'Open Sans', sans-serif;
 }
+
+.signin {
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 39px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  margin-bottom: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  h3 {
+    margin-bottom: 20px;
+    font-weight: lighter;
+    color: #2A418A;
+    border-bottom: 1px solid #2A418A;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.form-inputs {
+    width: 60%;
+    margin: auto;
+label {
+  letter-spacing: 2px;
+  color: #2a418a;
+}
+}
+
+.form-actions {
+    width: 60%;
+    margin: auto;
+    margin-top: 35px;
+label {
+  letter-spacing: 2px;
+  color: #2a418a;
+}
+}
