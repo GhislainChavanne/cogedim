@@ -11,6 +11,13 @@
   padding-right: 100px;
 }
 
+@media screen and (max-width: 570px) {
+  .navbar-wagon {
+  padding-left: 40px;
+  padding-right: 40px;
+  }
+}
+
 /* Optional class to fix the navbar on top */
 .navbar-wagon-fixed {
   position: fixed;
@@ -24,6 +31,15 @@
 .logo {
   width: 200px;
 }
+
+
+
+@media screen and (max-width: 570px) {
+  .logo{
+  width: 150px;
+  }
+}
+
 
 /* Navbar right section (with form, links, button) */
 .navbar-wagon-right {
@@ -111,6 +127,11 @@
   box-shadow: 1px 1px 4px #E6E6E6;
   border-color: #E6E6E6;
 }
+
+.dropdown i {
+  color: white;
+}
+
 .navbar-wagon-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
