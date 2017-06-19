@@ -1,4 +1,5 @@
 ActiveAdmin.register Avancement do
+  permit_params :title, :description, :date
 
   menu label: "Avancements"
 
@@ -15,7 +16,7 @@ ActiveAdmin.register Avancement do
     inputs 'Details' do
       input :title, placeholder: "Titre"
       input :description
-      input :date, placeholder: "DAY/MONTH/YEAR"
+      input :date, placeholder: "DD/MM/YYYY"
       f.actions
     end
   end

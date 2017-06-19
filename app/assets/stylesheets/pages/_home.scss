@@ -2,17 +2,69 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+
+body {
+  h1, h2, h3, h4, h5, a {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+  }
+}
+
 .avancements {
   background-color: white;
-  padding: 40px;
-  width: 70%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  width: 100%;
   margin: auto;
-  margin-top: 50px;
-  border-radius: 3px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  margin-bottom: 20px;
+  h3 {
+    margin-bottom: 40px;
+    font-weight: bolder;
+    color: #2A418A;
+  }
+}
+
+.scroll {
+  overflow:scroll; height:300px;
+}
+
+.accroche {
+  h5 {
+    color: white;
+    border-bottom: 10px solid white;
+  }
+}
+
+.logo1 {
+  width: 130px;
 }
 
 .card {
   background-color: #2A418A;
   width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-top: 20px;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  h5 {
+    margin: 0px;
+    color: white;
+    font-weight: lighter;
+  }
+}
+
+.logo1 {
+  margin-bottom: 15px;
+}
+
+.panel-body {
+  text-align: justify;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;
 }
