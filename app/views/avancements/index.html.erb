@@ -15,15 +15,16 @@
               <h5><span style="margin-right: 30px;"><%= avancement.date %></span><%= avancement.title %></h5>
             </div>
             <div class="panel-body">
-                <i class="fa fa-caret-right" aria-hidden="true" style="color: #f65d07"></i> <%= avancement.description %>
+                <i class="fa fa-caret-right" aria-hidden="true" style="color: #f65d07"></i> <%= avancement.description.html_safe %>
             </div>
           <% end %>
           </div>
         </div>
       </div>
-      <div class="col-md-2 text-center">
+      <div class="col-md-2 text-center accroche2">
+        <h5>UN PROGRAMME</h5>
         <%= image_tag("logo1.png", class: "logo1") %>
-        <%= image_tag("logo2.png", class: "logo1") %>
+        <%= image_tag("logo2.png", class: "logo1", style: 'margin-right: 3px') %>
       </div>
     </div>
 </div>
