@@ -2,9 +2,9 @@ ActiveAdmin.register Avancement do
   permit_params :title, :description, :date
 
   menu label: "Avancements"
-action_item do
-  link_to 'Site Web', root_path, target: "_blank"
-end
+  # action_item do
+  #   link_to 'Site Web', root_path, target: "_blank"
+  # end
   index do
     selectable_column
     column :title
