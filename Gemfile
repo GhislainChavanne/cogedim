@@ -3,7 +3,7 @@ ruby '2.3.1'
 
 gem 'rails', '5.0.0.1'
 gem 'puma'
-gem 'pg'
+gem 'pg', '~> 0.20.0'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
 gem 'devise'
@@ -17,7 +17,7 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
 
-gem 'activeadmin', github: 'activeadmin/activeadmin'
+gem 'activeadmin', '1.0.0'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 
 group :development, :test do
